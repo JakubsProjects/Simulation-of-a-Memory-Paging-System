@@ -1,0 +1,72 @@
+
+			TestRun1 for calibration
+Calibration.nz:
+
+Input file: calibration.nz
+# of times Memory Accessed: 5703328
+Size Frametable: 1024
+
+FIFO display stats
+# Hits: 1774859
+# of misses: 3928469
+# of mem accesses: 5703328
+
+Infinite Memory display stats
+# of Hits: 5638457
+# of misses: 64871
+# of mem accesses: 5703328
+
+
+			TestRun2 for calibration
+
+Input file: calibration.nz
+# of times Memory Accessed: 5703328
+Size Frametable: 4096
+
+FIFO display stats
+# Hits: 2606146
+# of misses: 3097182
+# of mem accesses: 5703328
+
+Infinite Memory display stats
+# of Hits: 5638457
+# of misses: 64871
+# of mem accesses: 5703328
+
+			TestRun1 for Chevalier_473.nz
+
+Input file: Chevalier_473.nz
+# of times Memory Accessed: 1013613
+Size Frametable: 1024
+
+FIFO display stats
+# Hits: 160528
+# of misses: 853085
+# of mem accesses: 1013613
+
+Infinite Memory display stats
+# of Hits: 950938
+# of misses: 62675
+# of mem accesses: 1013613
+
+
+			TestRun2 for Chevalier_473.nz
+
+
+Input file: Chevalier_473.nz
+# of times Memory Accessed: 1013613
+Size Frametable: 4096
+
+FIFO display stats
+# Hits: 362328
+# of misses: 651285
+# of mem accesses: 1013613
+
+Infinite Memory display stats
+# of Hits: 950938
+# of misses: 62675
+# of mem accesses: 1013613
+
+In the test trial above, I run test 1 of size 256 for the frame table. For test2 I test frame table size of 1024. I run this test on two different picture's(Chevalier and calibration). The concluding rests show the following:
+FIFO: As we increase the framesizetable in size the number of misses decreases.
+Infinite Memnory: As we increase the framesizetable in size, the number of misses stays the same.
