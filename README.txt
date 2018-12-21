@@ -1,5 +1,7 @@
 Welcome to the program that takes in a picture and analyzes the number of hits and misses for a given picture.
 It run two different simulations FIFO and INFINITE memory. Fifo has a limit size, while infinite memory assumes unlimited memory.
+This is a simulation to analyze a virtual memory paging system given a certain number of memory accesses and a certain amount of 
+available memory.
 
 HOWTORUN:
 1. Type in "make" and this complies the program for you. it creates an executable called hw3.
